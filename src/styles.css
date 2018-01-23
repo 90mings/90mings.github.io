@@ -1,0 +1,19 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    /* TODO : option-tool 까지 포함한 사이즈로 변경할것 */
+    min-width: 320px;
+    min-height: 320px;
+    background: #fafafa;
+    color: #333;
+    font-size: 12px;
+    box-sizing: border-box;
+  
+    padding: 0px;
+    margin: 0px;
+  
+    -khtml-user-select: none;  /* Konqueror HTML */
+    user-select: none;         /* Currently supported by Chrome and Opera */
+}
+
+.absolute { position: absolute; }
