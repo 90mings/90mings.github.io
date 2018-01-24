@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class AppComponent implements OnInit {
   title = 'mings-Blog';
-
+  
   ngOnInit() {
     console.log("site start");
   }

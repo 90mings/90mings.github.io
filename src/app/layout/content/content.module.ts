@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 
-import { HeaderComponent } from './header.component';
+import { ContentComponent } from './content.component';
 
 @NgModule({
   imports: [
 
   ],
   exports: [
-    HeaderComponent,
+    ContentComponent,
   ],
   declarations: [
-    HeaderComponent,
+    ContentComponent,
   ],
   providers: []
 })
-export class HeaderModule { }
+export class ContentModule { }
